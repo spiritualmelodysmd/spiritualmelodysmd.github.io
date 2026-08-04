@@ -1,3 +1,8 @@
+<marquee behavior="scroll" direction="left">
+
+🔥 Welcome to the Official Website of SPIRITUAL-MELODY SMD • Music • Purpose • Impact • Bookings Available Worldwide 🔥
+
+</marquee>
 /* HERO */
 
 .hero{
@@ -119,5 +124,99 @@ color:#aaa;
 html{
 
 scroll-behavior:smooth;
+
+}
+
+/* GOLD ANIMATION */
+
+@keyframes glow{
+
+0%{box-shadow:0 0 15px gold;}
+
+50%{box-shadow:0 0 45px gold;}
+
+100%{box-shadow:0 0 15px gold;}
+
+}
+
+.logo{
+
+animation:glow 2s infinite;
+
+}
+
+/* FADE IN */
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+.hero{
+
+animation:fadeIn 1.2s ease;
+
+}
+
+.content{
+
+animation:fadeIn 1.2s ease;
+
+}
+
+/* BUTTON EFFECT */
+
+.btn:hover{
+
+transform:translateY(-5px) scale(1.05);
+
+}
+
+/* IMAGE EFFECT */
+
+.hero-img{
+
+transition:.5s;
+
+}
+
+.hero-img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 50px gold;
+
+  }
+
+marquee{
+
+background:#111;
+
+color:gold;
+
+padding:12px;
+
+font-size:18px;
+
+font-weight:bold;
+
+border-top:2px solid gold;
+
+border-bottom:2px solid gold;
 
 }
