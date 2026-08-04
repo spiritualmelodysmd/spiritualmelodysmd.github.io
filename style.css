@@ -3,6 +3,7 @@
 🔥 Welcome to the Official Website of SPIRITUAL-MELODY SMD • Music • Purpose • Impact • Bookings Available Worldwide 🔥
 
 </marquee>
+
 /* HERO */
 
 .hero{
@@ -48,6 +49,26 @@ color:black;
 box-shadow:0 0 35px gold;
 }
 
+<section class="content" id="featured">
+
+<h2>🔥 Featured Song</h2>
+
+<h3>Mindset</h3>
+
+<p>
+Experience the latest release from SPIRITUAL-MELODY SMD.
+Click below to stream it on Audiomack.
+</p>
+
+<a class="btn"
+href="https://audiomack.com/spiritual-melody-smd"
+target="_blank">
+
+🎧 Stream on Audiomack
+
+</a>
+
+</section>
 
 /* CONTENT */
 
@@ -98,6 +119,54 @@ transition:.4s;
 transform:scale(1.05);
 
 }
+
+<section class="content">
+
+<h2>Book SPIRITUAL-MELODY SMD</h2>
+
+<p>
+
+Available for:
+
+<br><br>
+
+🎤 Live Performances
+
+<br>
+
+🎉 Weddings
+
+<br>
+
+🎂 Birthday Events
+
+<br>
+
+🏛 Church Programs
+
+<br>
+
+🎶 Concerts
+
+<br>
+
+🎧 Studio Sessions
+
+<br>
+
+🤝 Brand Collaborations
+
+</p>
+
+<a class="btn"
+href="https://wa.me/2347043843059"
+target="_blank">
+
+📲 Book Now
+
+</a>
+
+</section>
 
 
 /* FOOTER */
